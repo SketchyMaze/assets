@@ -15,7 +15,7 @@ doodad levelpack create -t Tutorial -d "Learn how to play the game." \
 
 # First Quest
 doodad levelpack create -t "First Quest" -d "The first story mode campaign." \
-	-a "$AUTHOR" --doodads none \
+	-a "$AUTHOR" --doodads none --free 1 \
 	"levelpacks/000001-FIRST-QUEST.levelpack" \
 	"./src/FirstQuest/Castle.level" \
 	"./src/FirstQuest/Boat.level" \
