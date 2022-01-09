@@ -8,7 +8,7 @@ AUTHOR="Noah P"
 # Tutorial Levelpack
 doodad levelpack create -t Tutorial -d "Learn how to play the game." \
 	-a "$AUTHOR" --doodads none \
-	"levelpacks/000000-TUTORIAL.levelpack" \
+	"levelpacks/001000-TUTORIAL.levelpack" \
 	"../levels/Tutorial 1.level" \
 	"../levels/Tutorial 2.level" \
 	"../levels/Tutorial 3.level"
