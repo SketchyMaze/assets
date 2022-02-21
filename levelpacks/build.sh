@@ -9,9 +9,10 @@ AUTHOR="Noah P"
 doodad levelpack create -t Tutorial -d "Learn how to play the game." \
 	-a "$AUTHOR" --doodads none \
 	"levelpacks/001000-TUTORIAL.levelpack" \
-	"../levels/Tutorial 1.level" \
-	"../levels/Tutorial 2.level" \
-	"../levels/Tutorial 3.level"
+	"./src/Tutorial/Tutorial 1.level" \
+	"./src/Tutorial/Tutorial 2.level" \
+	"./src/Tutorial/Tutorial 3.level" \
+	"./src/Tutorial/Zoo.level"
 
 # First Quest
 doodad levelpack create -t "First Quest" -d "The first story mode campaign." \
