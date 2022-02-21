@@ -22,4 +22,5 @@ doodad levelpack create -t "First Quest" -d "The first story mode campaign." \
 	"./src/FirstQuest/Boat.level" \
 	"./src/FirstQuest/Thief 1.level" \
 	"./src/FirstQuest/Desert-1of2.level" \
-	"./src/FirstQuest/Desert-2of2.level"
+	"./src/FirstQuest/Desert-2of2.level" \
+	"./src/FirstQuest/Shapeshifter.level"
