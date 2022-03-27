@@ -24,3 +24,10 @@ doodad levelpack create -t "First Quest" -d "The first story mode campaign." \
 	"./src/FirstQuest/Desert-1of2.level" \
 	"./src/FirstQuest/Desert-2of2.level" \
 	"./src/FirstQuest/Shapeshifter.level"
+
+# Azulian Tag
+doodad levelpack create -t "Azulian Tag" -d "Survival based games of inverted Tag." \
+	-a "$AUTHOR" --doodads none \
+	"levelpacks/AzulianTag.levelpack" \
+	"./src/AzulianTag/AzulianTag-Tutorial.level" \
+	"./src/AzulianTag/AzulianTag-Forest.level"
