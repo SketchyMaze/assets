@@ -12,6 +12,7 @@ doodad levelpack create -t Tutorial -d "Learn how to play the game." \
 	"./src/Tutorial/Tutorial 1.level" \
 	"./src/Tutorial/Tutorial 2.level" \
 	"./src/Tutorial/Tutorial 3.level" \
+	"./src/Tutorial/Tutorial 4.level" \
 	"./src/Tutorial/Zoo.level"
 
 # First Quest
@@ -20,6 +21,7 @@ doodad levelpack create -t "First Quest" -d "The first story mode campaign." \
 	"levelpacks/000001-FIRST-QUEST.levelpack" \
 	"./src/FirstQuest/Castle.level" \
 	"./src/FirstQuest/Boat.level" \
+	"./src/FirstQuest/Jungle.level" \
 	"./src/FirstQuest/Thief 1.level" \
 	"./src/FirstQuest/Desert-1of2.level" \
 	"./src/FirstQuest/Desert-2of2.level" \
