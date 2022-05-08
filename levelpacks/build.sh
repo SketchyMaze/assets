@@ -13,6 +13,7 @@ doodad levelpack create -t Tutorial -d "Learn how to play the game." \
 	"./src/Tutorial/Tutorial 2.level" \
 	"./src/Tutorial/Tutorial 3.level" \
 	"./src/Tutorial/Tutorial 4.level" \
+	"./src/Tutorial/Tutorial 5.level" \
 	"./src/Tutorial/Zoo.level"
 
 # First Quest
@@ -32,4 +33,5 @@ doodad levelpack create -t "Azulian Tag" -d "Survival based games of inverted Ta
 	-a "$AUTHOR" --doodads none \
 	"levelpacks/AzulianTag.levelpack" \
 	"./src/AzulianTag/AzulianTag-Tutorial.level" \
-	"./src/AzulianTag/AzulianTag-Forest.level"
+	"./src/AzulianTag/AzulianTag-Forest.level" \
+	"./src/AzulianTag/AzulianTag-Night.level"
