@@ -8,7 +8,7 @@ AUTHOR="Noah P"
 # Tutorial Levelpack
 doodad levelpack create -t Tutorial -d "Learn how to play the game." \
 	-a "$AUTHOR" --doodads none \
-	"levelpacks/001000-TUTORIAL.levelpack" \
+	"levelpacks/builtin-Tutorial.levelpack" \
 	"./src/Tutorial/Tutorial 1.level" \
 	"./src/Tutorial/Tutorial 2.level" \
 	"./src/Tutorial/Tutorial 3.level" \
@@ -19,7 +19,7 @@ doodad levelpack create -t Tutorial -d "Learn how to play the game." \
 # First Quest
 doodad levelpack create -t "First Quest" -d "The first story mode campaign." \
 	-a "$AUTHOR" --doodads none --free 1 \
-	"levelpacks/000001-FIRST-QUEST.levelpack" \
+	"levelpacks/builtin-100-FirstQuest.levelpack" \
 	"./src/FirstQuest/Castle.level" \
 	"./src/FirstQuest/Boat.level" \
 	"./src/FirstQuest/Jungle.level" \
@@ -31,7 +31,7 @@ doodad levelpack create -t "First Quest" -d "The first story mode campaign." \
 # Azulian Tag
 doodad levelpack create -t "Azulian Tag" -d "Survival based games of inverted Tag." \
 	-a "$AUTHOR" --doodads none \
-	"levelpacks/AzulianTag.levelpack" \
+	"levelpacks/builtin-200-AzulianTag.levelpack" \
 	"./src/AzulianTag/AzulianTag-Tutorial.level" \
 	"./src/AzulianTag/AzulianTag-Forest.level" \
 	"./src/AzulianTag/AzulianTag-Night.level"
